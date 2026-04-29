@@ -17,5 +17,4 @@ class RegularConRecargo extends EstudianteRegular {
     public double calcularPagoFinal() {
         return super.calcularPagoFinal() + recargoPendiente;
     }
-
 }
